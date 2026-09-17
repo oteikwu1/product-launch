@@ -37,7 +37,7 @@
             -ms-interpolation-mode: bicubic
         }
 
-        p, h1, h2, h2 {
+        p, h1, h2, h3 {
             margin: 0;
         }
 
@@ -53,7 +53,34 @@
             background-color: #ffffff;
             max-width: 600px;
             width: 100%;
+            color: #3a3a3a;
         }
+
+        .nav-item {
+            font-size: 0;
+            text-align: center;
+            max-width: 280px;
+            width: 100%;
+        }
+
+        .nav-container .nav-item {
+            display: inline-block;
+            /* max-width: 280px; */
+            font-size: 16px;
+        }
+
+        .view {
+            font-size: 0;
+            text-align: center;
+        }
+
+        .view-all .view {
+            width: 280px;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+
        
     </style><!--[if mso]>
     <noscript>
@@ -73,28 +100,32 @@
 <body style="word-spacing:normal">
 <!-- main-container -->
  <center class="main">
-    <table class="container">
+    <table class="container" style="background-color: #ffffff;">
 
         <!-- Nav bar -->
      <tr>
-        <td class="nav-padding">
+        <td class="nav-padding" style="padding: 8px 20px; background-color: #111111;">
 
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                  >
                 <tr>
                     <td class="nav-container">
-                    
                     <table class="nav-item">
                         <tr>
                             <td>
-                                <p>The NeoPro Series. Raw performance, reimagined</p>
+                                <p style="color: #ffffff; font-size: 12px;">
+                                    The NeoPro Series. Raw performance, reimagined
+                                </p>
                             </td>
                         </tr>
                     </table>
 
-                    <table class="nav-item">
+                    <table align="right" class="nav-item">
                         <tr>
                             <td>
-                                <a href="www.home.com">View in browser</a>
+                                <a href="www.home.com" style="text-decoration: none;
+                                color: #E95949;">
+                                    View in browser</a>
                             </td>
                         </tr>
                     </table>
@@ -102,33 +133,145 @@
                     </td>
                 </tr>
             </table>
-
-            <!-- Hero Section -->
-             <tr>
-                <td class="hero-section">
-                    <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
-                        <tr>
-                            <td>
-                                <h1>VELOCITY</h1>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <a href="www.links.com">New Arrival</a>
-                                <a href="www.links.com">Best Sellers</a>
-                                <a href="www.links.com">Our Story</a>
-                                <a href="www.links.com">Sales</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-             </tr>
-
         </td>
      </tr>
 
-     
+    <!-- Hero Section -->
+    <tr>
+        <td class="hero-section">
+            <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                    <td>
+                        <h1 style="text-align: center; padding: 20px 0; font-size: 24pz;">
+                            VELOCITY</h1>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td align="center" style="padding-bottom: 24px;">
+                        <a 
+                        href="www.links.com"
+                         style="text-decoration: none;
+                        color: inherit; font-size: 16px;
+                        font-weight: 600; padding-right: 20px;">
+                            New Arrival</a>
+                        <a 
+                        href="www.links.com" style="text-decoration: none;
+                        color: inherit; font-size: 16px;
+                        font-weight: 600; padding-right: 20px;">
+                            Best Sellers
+                        </a>
+
+                        <a 
+                         href="www.links.com" 
+                         style="text-decoration: none;
+                        color: inherit; font-size: 16px;
+                        font-weight: 600; padding-right: 20px;">
+                            Our Story
+                        </a>
+
+                        <a 
+                        href="www.links.com" 
+                        style="text-decoration: none;
+                        color: inherit; font-size: 16px;
+                        font-weight: 600;;">
+                            Sales
+                        </a>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td align="center">
+                        <p style="color: #DF301C; 
+                        font-size: 12px; font-size: 16px;
+                        font-weight: 700; padding-bottom: 16px;">
+                            JUST LAUNCHED</p>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td align="center">
+                        <h2 style="font-size: 32px; font-weight: bold;
+                         padding-bottom: 16px; text-transform: capitalize;
+                         width: 496px;">
+                            The future of daily comfort is here</h2>
+                        <p style="font-size: 16px; max-width: 552px; width: 100%;">
+                            Engineered with precision, built for action, and finished in a limited edition solar-orange.
+                            Experience unmatched
+                            performance.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+     <tr>
+        <td style="padding: 40px 14px; background-color: #f2f2f2;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            style="background-color: #f2f2f2;">
+
+            <!--View all section  -->
+                <tr>
+                    <td class="view-all">
+                        <table class="view">
+                            <tr>
+                                <td>
+                                    <p style="font-size: 18px; font-weight: 600;">
+                                        Enroll The NeoPro Lineup</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table align="right"  class="view" style="padding-left: 30%;">
+                            <tr>
+                                <td align="right" style="text-align: right;">
+                                   
+                                    <a href="www.view.com" style="text-decoration: none;
+                                     color:#4F42B5; font-size: 18px; font-weight: 500;">
+                                        View All 
+                                        <span>
+                                            <img src="https://res.cloudinary.com/qyksrgfe/image/upload/v1789626061/arrow_d0ky07.png" alt="arrow icon"
+                                            width="16">
+                                        </span>
+                                    </a>
+                                
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            <!-- Product cards -->
+             <tr>
+                <td class="card-section">
+
+                <table class="card-container">
+                    <tr>
+                        <td>
+                            <a href="www.card.com">
+                                <img src="https://res.cloudinary.com/qyksrgfe/image/upload/v1789626075/Product-Image1_tijvyt.png" alt="Ear phone"
+                                width="163">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3 style="width: 180px; 
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            ">
+                                NeoBuds Pro Earphones
+                            </h3>
+                        </td>
+                    </tr>
+                </table>
+
+                </td>
+             </tr>
+            </table>
+        </td>
+     </tr>
 
 
 
