@@ -1,0 +1,52 @@
+# Product Launch Email Template
+
+A clean, modern, and responsive HTML email template designed for product launches.  
+Built with compatibility, readability, and conversion in mind.
+
+![Email Preview](preview.png)
+
+---
+
+## Overview
+
+This is a fully responsive product launch email template that works across major email clients.  
+It’s designed to announce a new product, highlight key features, and drive users to take action (pre-order, learn more, or visit the website).
+
+---
+
+## Features
+
+- Fully responsive design (mobile-first)
+- Compatible with major email clients (Gmail, Outlook, Apple Mail, Yahoo, etc.)
+- Clean and modern visual hierarchy
+- Clear call-to-action buttons
+- Easy to customize colors, images, and copy
+- Inline CSS for maximum compatibility
+- Dark mode friendly (where supported)
+- Lightweight and fast-loading
+
+---
+
+## Preview
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Desktop](preview-desktop.png) | ![Mobile](preview-mobile.png) |
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3 (Inline styles)
+- Table-based layout (for email client compatibility)
+
+---
+
+## Getting Started
+
+### 1. Download / Clone
+
+```bash
+git clone https://github.com/oteikwu1/product-launch
+cd product-launch-email-template
